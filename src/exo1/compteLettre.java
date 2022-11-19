@@ -24,11 +24,11 @@ public class compteLettre {
 		char e = 'e';
 		
 		int compteA = countOccurrences(mot, a);
-		System.out.println("Il y à " + compteA + " 'a' dans votre saisie.");
+		System.out.println("Il y a " + compteA + " 'a' dans votre saisie.");
 		int compteO = countOccurrences(mot, o);
-		System.out.println("Il y à " + compteO + " 'o' dans votre saisie.");
+		System.out.println("Il y a " + compteO + " 'o' dans votre saisie.");
 		int compteE = countOccurrences(mot, e);
-		System.out.println("Il y à " + compteE + " 'e' dans votre saisie.");
+		System.out.println("Il y a " + compteE + " 'e' dans votre saisie.");
 
 	}
 
