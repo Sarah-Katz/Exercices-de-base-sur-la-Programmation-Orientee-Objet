@@ -1,7 +1,5 @@
 package exo3;
 
-import java.util.Scanner;
-
 /**
  * @author Sarah Katz & Marc-Antoine Taisant
  *
