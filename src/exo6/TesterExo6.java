@@ -13,6 +13,5 @@ public class TesterExo6 {
 		System.out.println("Votre plus grand mouvement est de  : " + grand + " €");		
 		double petit = test.petitMouvement();
 		System.out.println("Votre plus petit mouvement est de  : " + petit + " €");
-		test.saisieUtilisateur();
 	}
 }
