@@ -10,8 +10,8 @@ public class Contact {
 	public int age;
 
 	/**
-	 * @param nom
-	 * @param prenom
+	 * @param nom - lastname
+	 * @param prenom - firstname
 	 * @param age
 	 */
 	Contact(String nom, String prenom, int age) {
