@@ -9,7 +9,7 @@ public class Tester {
 		System.out.println("Entrez une saisie : ");
 		String saisie = in.nextLine();
 		ComptageChar test = new ComptageChar(saisie);
-		int[] compte = test.compteChar(saisie);
+		int[] compte = test.compteChar();
 		test.resultat(compte);
 	}
 

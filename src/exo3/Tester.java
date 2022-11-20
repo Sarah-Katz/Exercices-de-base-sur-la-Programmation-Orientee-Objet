@@ -8,7 +8,7 @@ public class Tester {
 		System.out.println("Entrez une saisie :");
 		String saisie = in.nextLine();
 		RemplaceLettre test = new RemplaceLettre(saisie);
-		String resultat = test.changeLettre(saisie);
+		String resultat = test.changeLettre();
 		System.out.println(resultat);
 	}
 }

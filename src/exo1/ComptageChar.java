@@ -18,14 +18,13 @@ public class ComptageChar {
 	}
 
 	/**
-	 * @param saisie is the String in which you want to count the chars
 	 * @return Returns the number of 'a' 'e' and 'o' char in a int array
 	 */
-	public int[] compteChar(String saisie) {
+	public int[] compteChar() {
 		int[] compte = new int[3];
-		compte[0] = comptageLettres(saisie, 'a');
-		compte[1] = comptageLettres(saisie, 'o');
-		compte[2] = comptageLettres(saisie, 'e');
+		compte[0] = comptageLettres(this.saisie, 'a');
+		compte[1] = comptageLettres(this.saisie, 'o');
+		compte[2] = comptageLettres(this.saisie, 'e');
 		return compte;
 	}
 
