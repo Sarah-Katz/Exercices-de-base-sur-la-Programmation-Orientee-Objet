@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author Sarah Katz & Marc-Antoine Taisant
  *
  */
-public class majuscule {
+public class Majuscule {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Entrer un truc :");

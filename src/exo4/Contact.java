@@ -23,14 +23,14 @@ public class Contact {
 	/**
 	 * Gets first chars of "nom" and "prenom" to return "Initiales".
 	 */
-	public String displayInitiales() {
+	public String getInitiales() {
 		char p = prenom.charAt(0);
 		char n = nom.charAt(0);
 		StringBuilder initiales = new StringBuilder();
+		initiales.append("Les initiales du contact sont : ");
 		initiales.append(p);
 		initiales.append(n);
 		initiales.toString();
-		System.out.println(initiales);
 		return initiales.toString();
 	}
 
@@ -38,13 +38,14 @@ public class Contact {
 	 * Gets first chars of "nom" and "prenom" and last char of "nom" to return
 	 * "Trigrammes".
 	 */
-	public String displayTrigrammes() {
+	public String getTrigrammes() {
 		char p = prenom.charAt(0);
 		char n = nom.charAt(0);
 		char nLast = nom.charAt(nom.length() - 1);
 		String nLastUpper = "" + nLast;
 		nLastUpper = nLastUpper.toUpperCase();
 		StringBuilder trigrammes = new StringBuilder();
+		trigrammes.append("Les trigrammes du contact sont : ");
 		trigrammes.append(p);
 		trigrammes.append(n);
 		trigrammes.append(nLastUpper);
@@ -54,7 +55,7 @@ public class Contact {
 	/**
 	 * Returns all infos about the contact.
 	 */
-	public String displayInfos() {
+	public String getInfos() {
 		StringBuilder infos = new StringBuilder();
 		infos.append("Nom : ");
 		infos.append(nom);
